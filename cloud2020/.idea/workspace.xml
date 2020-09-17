@@ -244,7 +244,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600310300418" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600310443977" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../s2gciy/miaosha_7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -450,12 +450,12 @@
       <workItem from="1599725546755" duration="28782000" />
       <workItem from="1599898376037" duration="7792000" />
       <workItem from="1599957755045" duration="42579000" />
-      <workItem from="1600251549670" duration="10830000" />
+      <workItem from="1600251549670" duration="11232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89983000" />
+    <option name="totallyTimeSpent" value="90385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
