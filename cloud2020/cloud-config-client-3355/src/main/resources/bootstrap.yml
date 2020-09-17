@@ -1,0 +1,22 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master   #对应分支
+      name: config    # 对应github上 文件的 名字 {name}-{profile}.yml
+      profile: dev   # 对应github上 文件的 mz {name}-{profile}.yml
+      uri: http://localhost:3344   # config 服务端接口
+      #凭借  uri+label+name+ profile     http://localhost:3344/master/config-dev.yml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

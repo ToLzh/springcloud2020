@@ -1,0 +1,20 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ToLzh/springcloud2020.git
+          search-paths:
+            # 如果有下级目录的话，那么这个就是文件夹；若没有下级目录，这个和仓库同名
+            - springcloud-config
+      # 分支
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
