@@ -77,4 +77,11 @@ public class PaymentController {
         TimeUnit.SECONDS.sleep(3);
         return serverPort;
     }
+
+
+    @GetMapping("/zipkin")
+    public String paymentZipkin()
+    {
+        return "hi ,i'am paymentzipkin server fall back，O(∩_∩)O哈哈~";
+    }
 }
