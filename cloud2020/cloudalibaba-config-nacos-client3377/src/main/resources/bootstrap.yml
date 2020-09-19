@@ -11,7 +11,7 @@ spring:
       config:
         server-addr: localhost:8848 #配置中心地址
         file-extension: yaml #指定yaml格式的配置
-        namespace: b8e76fce-a871-455f-af80-48e81308b42e #命令空间，默认：无，代表public
+#        namespace: b8e76fce-a871-455f-af80-48e81308b42e #命令空间，默认：无，代表public
 #        group: TEST_GROUP  # 指定属于哪个分组 默认 : DEFAULT_GROUP
 
 # ${spring.application.name}-${spring.profile.active}.${file-extension}
