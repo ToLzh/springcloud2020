@@ -27,6 +27,9 @@ public class PaymentController {
     @Resource
     private DiscoveryClient discoveryClient;
 
+    @Value("${logging.path}")
+    private String logPath;
+
     @PostMapping("/create")
     public CommonResult<Integer> create(@RequestBody Payment payment) {
         int id = paymentService.create(payment);
@@ -41,6 +44,7 @@ public class PaymentController {
     public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
         Payment payment = paymentService.getPaymentById(id);
         log.info("****查询结果: "+payment);
+        System.out.println(logPath);
         if(payment!=null){
             return new CommonResult(200, "成功,serverPort="+serverPort, payment);
         }

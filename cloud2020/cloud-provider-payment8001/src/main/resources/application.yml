@@ -39,3 +39,6 @@ management:
     jmx:
       exposure:
         include: "*"
+#logging:
+#  file:
+#    path: /mylog/log

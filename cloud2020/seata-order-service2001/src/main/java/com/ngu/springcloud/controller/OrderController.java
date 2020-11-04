@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 @RestController
 public class OrderController{
-    @Autowired
+    @Resource
     private OrderService orderService;
 
 
